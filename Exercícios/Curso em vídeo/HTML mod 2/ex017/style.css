@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body{
+    font-family: 'Courier New', Courier, monospace;
+    /*Medidas absolutas:
+    cm,, mm, in, px, pt, pc
+    
+    Medidas relativas:
+    em, ex, rem, vw, vh, % 
+    16 px = 1em
+    Recomendação oficial é usar em EM ou PX*/
+    font-size: 1.5em;
+    font-style: oblique;
+    text-align: center;
+    text-indent: 20px;
+}
+h1, h2{
+   /*font-family: 'Courier New', Courier, monospace;
+   font-weight: lighter;
+   font-size: 3em;
+   font-style: italic;*/
+   /* Shorthand */
+   font: italic lighter 3m 
+   'courier new', monospace
+
+}
+p{
+    background-color: white;
+}

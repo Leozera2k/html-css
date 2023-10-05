@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #B3CFF2;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: #B3CFF2;
+            padding: 3px;
+            text-align: right;
+            box-shadow: 1px 1px 10px rgb(66, 66, 66);
+            border-radius: 10px;
+            
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 0px 15px;
+            
+
+        }
+        nav > a:hover{
+            color: #034AA6;
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article{
+            background-color: #B3CFF2;
+            padding: 5px;
+            border-radius: 17px;
+            box-shadow: 1px 4px 10px 1px gray;
+        }
+        article > aside {
+            background-color: #87a2c2;
+        }
+        footer{
+            background-color: #034AA6;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </sectio>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente rerum quos ea voluptate quae ad repudiandae praesentium! Esse asperiores dolore, aperiam earum doloribus praesentium quos fugiat obcaecati, labore, voluptas nihil?</p>
+            </article>
+            <aside>
+                <p>Artigo escrito por José da Silva</p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Deselvolvido Pelo CursoemVídeo</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+h1{
+    height: 300px;
+    width: 300px;
+    background-color: lightgray;
+    border-radius: 10px;
+    
+    border: 10px solid darkslategray;
+    
+    padding: 10px;
+    
+    margin: 10px 20px;
+    margin: auto;
+   
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: red;
+}
+a{
+    border: solid;
+    border-color: darkslategray;
+    color: red;
+}
