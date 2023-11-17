@@ -1,14 +1,5 @@
 @charset "UTF-8";
-@media screen and (max-width:1024px) {
-    .wraper .img{
-        width: 33.3%;
-    }
-}
-@media screen and (max-width:768px) {
-    .wraper .img{
-        width: 50%;
-    }
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -27,3 +18,18 @@ img{
 }
 
 
+@media screen and (max-width:1024px) {
+    .wraper .img{
+        width: 33.3%;
+    }
+}
+@media screen and (max-width:768px) {
+    .wraper .img{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 580px) {
+    .wraper .img {
+        width: 100%;
+    }
+}
